@@ -1,0 +1,125 @@
+.mycalc{
+    border: 1px solid black;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(81, 159, 190);
+}
+
+.all-btn{
+    display: flex;
+}
+
+.all-btn-numbers{
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+}
+
+.all-btn-signs{
+    display:flex;
+    flex-direction: column;
+}
+
+.all-btn-numbers button{
+    background: rgb(218, 166, 174);
+    border: none;
+    margin: 10px;
+    color: rgb(25, 3, 46);
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.all-btn-signs button{
+    background-color: rgba(235, 117, 137, 0.926);
+    border: none;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+}
+
+.all-btn-signs button:hover{
+    cursor:pointer;
+    box-shadow: 0px 0px 20px 5px rgb(25, 3, 46);
+}
+
+.all-btn-numbers button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 40px 1px rebeccapurple;
+}
+
+.btn-extra{
+    display: flex;
+}
+
+.btn-extra button{
+    background-color: rgba(235, 117, 137, 0.926);
+    color:black;
+}
+
+.btn-extra button:hover{
+    box-shadow: 0px 0px 40px 1px rebeccapurple;
+}
+
+.btn-clear-equals{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn-clear-equals button{
+    width: 120px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#clear{
+    color: rgb(215, 215, 235);
+    background-color: rgb(0, 9, 6);
+}
+
+#equals{
+    color: rgb(232, 232, 238);
+    background-color: rgb(0, 9, 6);
+}
+
+#clear:hover,
+#equals:hover{
+    background-color:rgb(171, 20, 45);
+    cursor: pointer;
+}
+
+input{
+    width: 80%;
+    margin: 10px 0px;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 1px solid rgb(211,211,211);
+
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid rgb(75,75,75);
+}
